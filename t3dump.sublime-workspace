@@ -1,0 +1,571 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"array_u",
+				"array_unique"
+			],
+			[
+				"err",
+				"errorLevel"
+			],
+			[
+				"file_",
+				"file_put_contents"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"updat",
+				"updateToScreenSize"
+			],
+			[
+				"s",
+				"Starfield"
+			],
+			[
+				"star",
+				"Starfield"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add..."
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"gitad",
+				"Git: Add..."
+			],
+			[
+				"paga",
+				"Package Control: Install Package"
+			],
+			[
+				"tag",
+				"Git: New Tag"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"git tag",
+				"Git: New Tag"
+			],
+			[
+				"gitcomm",
+				"Git: Commit"
+			],
+			[
+				"gittag",
+				"Git: New Tag"
+			],
+			[
+				"git",
+				"Git: New Tag"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"gicom",
+				"Git: Commit"
+			],
+			[
+				"gadd",
+				"Git: Add..."
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"PACK IN",
+				"Package Control: Install Package"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Add Channel"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"package control: installPackage",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Add Channel"
+			],
+			[
+				"packa inst",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 190.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/sv1/class.user_kimauth_sv1.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_kimauth/sv1/class.user_kimauth_sv1.php",
+		"/D/Projekte/AERTicket/Aerticket.de/aerticket-server-root/typo3conf/kim_auth_conf.php",
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/ext_icon.gif",
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/ext_emconf.php",
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/ChangeLog",
+		"/D/Projekte/_Resources/typo3_basic.config/HTML_skeletton/css/reset.css",
+		"/D/Projekte/_Resources/typo3_basic.config/HTML_skeletton/README.md",
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/README.txt",
+		"/D/Projekte/t3-development/4.4/index.php",
+		"/D/Projekte/t3-development/4.4/typo3conf/kim_auth_conf.php",
+		"/D/Projekte/t3-development/4.4/kim_error_log.txt",
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/.settings/org.eclipse.wst.jsdt.ui.superType.container",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Projekte/t3-development/4.4/typo3conf/ext/user_kimauth/ext_localconf.php",
+		"/D/Projekte/t3-development/4.4/typo3/sysext/cms/tslib/index_ts.php",
+		"/D/Projekte/t3-development/4.4/t3lib/class.t3lib_timetrack.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/ext_tables.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/ext_tables.sql",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/README.txt",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/ext_emconf.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/ext_localconf.php",
+		"/D/Projekte/t3-development/4.5/typo3/sysext/cms/ext_tables.sql",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/tca.php",
+		"/D/Projekte/_Resources/typo3_basic.config/TypoScript/PageConfig.txt",
+		"/D/Projekte/t3-development/4.5/typo3/sysext/cms/ext_tables.php",
+		"/D/Projekte/t3-development/4.5/typo3/sysext/cms/tbl_cms.php",
+		"/D/Projekte/t3-development/4.5/typo3/sysext/tstemplate/ext_tables.php",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/ChangeLog",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/sftp-config.json",
+		"/D/Projekte/_Resources/typo3_basic.config/TypoScript/tsConstants-cfg.txt",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/locallang_db.xml",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/tt_news/ext_tables.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/tt_news/tca.php",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/user_anzeigenverwaltung/locallang_tca.xml",
+		"/D/Projekte/t3-development/4.5/t3lib/tree/tca/class.t3lib_tree_tca_tcatree.php",
+		"/D/Projekte/t3-development/4.5/t3lib/tree/tca/class.t3lib_tree_tca_databasenode.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/tt_news/pi/class.tx_ttnews.php",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/tt_news/locallang_tca.xml",
+		"/D/Projekte/connye/bezirksmagazine.de/user_anzeigenverwaltung/tabellen struktur.txt",
+		"/D/Projekte/t3-development/4.5/typo3conf/ext/static_info_tables/ext_tables.sql",
+		"/D/Projekte/AERTicket/Aerticket.de/redirects-backup.ts",
+		"/D/Projekte/Fream/fream-code/app/assets/stylesheets/layout.css.scss",
+		"/D/Projekte/Fream/fream-code/app/views/layouts/application.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/static/welcome.html.erb",
+		"/D/Projekte/Fream/fream-code/config/routes.rb",
+		"/D/Projekte/_test/random.ts",
+		"/D/Privat/ebay/bett-und-stuhl/barhocker.txt",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/TypoScript/TypoScript.tmLanguage",
+		"/D/Projekte/Fream/fream-code/app/assets/stylesheets/application.css",
+		"/D/Projekte/Fream/fream-code/app/views/static/dashboard.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/unlocks/new.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/sessions/new.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/registrations/new.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/passwords/new.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/passwords/edit.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/confirmations/new.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/devise/registrations/edit.html.erb",
+		"/D/Projekte/Fream/fream-code/app/controllers/freams_controller.rb",
+		"/D/Projekte/Fream/fream-code/app/controllers/elements_controller.rb",
+		"/D/Projekte/Fream/fream-code/app/controllers/users/omniauth_callbacks_controller.rb",
+		"/D/Projekte/Fream/fream-code/app/models/user.rb",
+		"/D/Projekte/Fream/fream-code/app/controllers/application_controller.rb",
+		"/D/Projekte/Fream/fream-code/app/views/static/imprint.html.erb",
+		"/D/Projekte/Fream/fream-code/app/controllers/static_controller.rb",
+		"/D/Projekte/Fream/fream-code/app/assets/stylesheets/static.css.scss",
+		"/D/Projekte/Fream/fream-code/app/views/freams/show.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/freams/index.html.erb",
+		"/D/Projekte/Fream/fream-code/app/views/users/edit.html.erb",
+		"/D/Projekte/Fream/fream-code/config/boot.rb",
+		"/D/Projekte/Fream/fream-code/app/helpers/application_helper.rb",
+		"/D/Projekte/Fream/fream-code/app/assets/stylesheets/freams.css.scss",
+		"/D/Projekte/Fream/fream-code/spec/spec_helper.rb",
+		"/D/Projekte/Fream/fream-code/README.rdoc",
+		"/D/Projekte/Fream/fream-code/app/assets/javascripts/static-starfield.js",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files (x86)/Git/etc/gitconfig",
+		"/C/Users/chris/.ssh/known_hosts",
+		"/D/Projekte/Fream/fream-code/.git/config",
+		"/D/Projekte/Fream/fream-code/Gemfile",
+		"/C/Users/chris/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"controlByptes",
+			"funktion",
+			"espr",
+			"kim_aut",
+			"for",
+			"bezirk",
+			"rubriken",
+			"icon",
+			"rubri",
+			"subt",
+			"_vor",
+			"tel",
+			"plz",
+			"rubrik",
+			"trae",
+			"name",
+			"esc",
+			"sys_tem",
+			"sprachen",
+			"wrap",
+			"rl+shift+t\"",
+			"shift+t",
+			"[",
+			"rubrike",
+			"categ",
+			"cate",
+			"bezir",
+			"oefn",
+			"strass",
+			"street",
+			"gesch",
+			"plz",
+			"zip",
+			"zi",
+			"zip",
+			"tel",
+			"rootuid",
+			"ORDEr BY",
+			".name",
+			"magazin",
+			"insertR",
+			"addToInsertRecords",
+			"group",
+			"zenc",
+			"&gt",
+			":anchor => \"wall\"",
+			"whitesp",
+			"//",
+			"\\",
+			"gem"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/",
+			"D:\\\\Datenbanken\\\\SSH-Keys\\\\key-ssh-chris-at-connye.com-priv.ppk",
+			"\\",
+			"D:\\\\Datenbanken\\\\SSH-Keys\\\\key-ssh-chris-at-connye.com-priv.ppk"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"init",
+				".settings/org.eclipse.wst.jsdt.ui.superType.container"
+			],
+			[
+				"_sv1",
+				"sv1/class.user_kimauth_sv1.php"
+			],
+			[
+				"em",
+				"ext_emconf.php"
+			],
+			[
+				"tc",
+				"tca.php"
+			],
+			[
+				"tca",
+				"tca.php"
+			],
+			[
+				"ch",
+				"ChangeLog"
+			],
+			[
+				"read",
+				"README.txt"
+			],
+			[
+				"loca",
+				"locallang_db.xml"
+			],
+			[
+				"loc",
+				"locallang_db.xml"
+			],
+			[
+				"ext_tab",
+				"ext_tables.php"
+			],
+			[
+				"ext",
+				"ext_tables.sql"
+			],
+			[
+				"local",
+				"locallang_db.xml"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"js",
+				"app/assets/javascripts/static-starfield.js"
+			],
+			[
+				".js",
+				"app/assets/javascripts/static-starfield.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"kim",
+				"/D/Projekte/AERTicket/KIM-Typo3-Auth/kim_auth.sublime-project"
+			],
+			[
+				"emp",
+				"/D/Projekte/EMPTY.sublime-project"
+			],
+			[
+				"comm",
+				"/D/Projekte/commonTS/common-TS.sublime-project"
+			],
+			[
+				"",
+				"/D/Projekte/Fream/fream-prj.sublime-project"
+			],
+			[
+				"fre",
+				"/D/Projekte/Fream/fream-prj.sublime-project"
+			],
+			[
+				"frea",
+				"/D/Projekte/Fream/fream-prj.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true
+}

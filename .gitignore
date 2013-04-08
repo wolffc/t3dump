@@ -1,0 +1,55 @@
+### this is the Global Git Ignore file
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
+*.lock
+
+# rails specific     #
+######################
+*.sqlite3
+config/database.yml
+log/*
+tmp/*
+
+
+# Dreamweaver        #
+######################
+_notes/*
+dwsync.xml
+
+
+# Sublime Files      #
+######################
+*.sublime-project
+sftp-*.json
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
