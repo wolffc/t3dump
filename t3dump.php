@@ -11,7 +11,7 @@
  
 
 ### Configuration Options
-$path_msqldump ='c:\xampp\mysql\bin\mysqldump.exe'; /* 	this is only needet if mysqldump is not in PATH envirionment variable (c:\xampp\mysql\bin\mysqldump.exe) */
+$path_msqldump =''; /* 	this is only needet if mysqldump is not in PATH envirionment variable (c:\xampp\mysql\bin\mysqldump.exe) */
 $overwrite_password =''; /* If this is set this password is used instad of the install tool password (md5) */
 $path_localconf ='localconf.php'; // include, path for localconf
 $controllBytes = 200; // bytes to show from the end of the dump;
