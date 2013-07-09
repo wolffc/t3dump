@@ -6,17 +6,19 @@
  * it uses localconf.php to detect database setting and
  * mysqldump to create the dump of the databse.
  * 
- * version: 1.2
+ * version: 1.3
  */
  
 
 ### Configuration Options
-$path_msqldump =''; /* 	this is only needet if mysqldump is not in PATH envirionment variable (c:\xampp\mysql\bin\mysqldump.exe) */
+$path_msqldump ='c:\xampp\mysql\bin\mysqldump.exe'; /* 	this is only needet if mysqldump is not in PATH envirionment variable (c:\xampp\mysql\bin\mysqldump.exe) */
 $overwrite_password =''; /* If this is set this password is used instad of the install tool password (md5) */
 $path_localconf ='localconf.php'; // include, path for localconf
 $controllBytes = 200; // bytes to show from the end of the dump;
 $path_dump_store = dirname(__FILE__);
 
+$excludeCacheTables=true; // if setzt the ignore table Pattern is used to exclude chache tables
+$ignoreTablePattern = '/cache_.+/i'; // This is a preg match pattern of tablenames to be ignored
 
 
 ### Starting Processing
@@ -39,19 +41,44 @@ $path_dump_store = dirname(__FILE__);
 <body>
 <?php 
 
-
-if(is_readable($path_localconf) ){
+if(is_readable($path_localconf)){
 	require_once($path_localconf);
 	$checkpw = $TYPO3_CONF_VARS['BE']['installToolPassword'];
 	if($overwrite_password != ''){
 		$checkpw=md5($overwrite_password);
 	}
 	if(!empty($_REQUEST['pwd']) and md5($_REQUEST['pwd']) == $checkpw){ 
-		$dumpname = $path_dump_store .'/'. date('Y-m-d-His-').$typo_db .'.sql';
+		$dumpname = $path_dump_store .'/'. date('Y-m-d-His-').$typo_db;
 
-		$dumpOpt = " -u $typo_db_username -p$typo_db_password -h$typo_db_host -r\"$dumpname\" $typo_db ";
-		if(file_exists($dumpname)){
-			die("dumpfile already exists: $dumpname");
+		// TODO: create table list to dump
+		// --tables
+		$cacheStructureTables = ''; 
+		$dumpTableString = '';
+		if($excludeCacheTables){
+			$mysqli = new mysqli($typo_db_host,$typo_db_username,$typo_db_password,$typo_db);
+			if ($mysqli->connect_errno) {
+				printf("Connect failed: %s\n", $mysqli->connect_error);
+				exit();
+			}
+			
+			if($result = $mysqli->query('SHOW TABLES')){
+				$dumpTableString = '--tables ';
+				$cacheTablesString = '--tables '; 
+				while ($tableResult = $result->fetch_array()) {
+					$tableName = $tableResult[0];
+	    			if(!preg_match($ignoreTablePattern, $tableName)){
+	    				$dumpTableString .= "$tableName "; 
+	    			}else{
+	    				$cacheTablesString .= "$tableName ";
+	    			}
+				}
+			}
+		}
+
+		$dumpOpt = " -u $typo_db_username -p$typo_db_password -h$typo_db_host -r\"{$dumpname}_db.sql\" $typo_db $dumpTableString";
+		$dumpOptCache = " -u $typo_db_username -p$typo_db_password -h$typo_db_host -r\"{$dumpname}_cache.sql\" $typo_db --no-data $dumpTableString";
+		if(file_exists($dumpname.'_db.sql')){
+			die("dumpfile already exists: {$dumpname}_db.sql");
 		}
 		if(empty($path_msqldump)){
 			$path_msqldump = 'mysqldump';
@@ -59,12 +86,13 @@ if(is_readable($path_localconf) ){
 		$ausgabe = array();
 		$returnVar = 0;
 		echo "<h1>Creating dump</h1>"; //<p>using: $path_msqldump $dumpOpt <br/> $dumpname</p>
+		$ret = exec($path_msqldump.$dumpOptCache ,$ausgabe, $returnVar );
 		$ret = exec($path_msqldump.$dumpOpt ,$ausgabe, $returnVar );
-			
-		if(file_exists($dumpname)){
-			echo "<p> file <i>$dumpname</i> created! <br />filesize: " .number_format(filesize($dumpname),0,',','.'). ' Bytes</p>';
+		
+		if(file_exists($dumpname.'_db.sql')){
+			echo "<p> file <i>{$dumpname}_db.sql</i> created! <br />filesize: " .number_format(filesize($dumpname.'_db.sql'),0,',','.'). ' Bytes</p>';
 			echo 'controll output (last lines of dump):<pre class="control-output">';
-			$fp = fopen($dumpname,'r');
+			$fp = fopen($dumpname.'_db.sql','r');
 			fseek($fp,-$controllBytes,SEEK_END);
 			$text = fread($fp,$controllBytes);
 			fclose($fp);
