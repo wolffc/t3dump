@@ -20,14 +20,14 @@ $path_dump_store = dirname(__FILE__);
 $excludeCacheTables=true; // if setzt the ignore table Pattern is used to exclude chache tables
 $ignoreTablePattern = '/^cache_.+/i'; // This is a preg match pattern of tablenames to be ignored
 
-
+$T3_DUMP_VERSION ='1.3'; // just the version string it shows
 ### Starting Processing
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>T3 MySQL Dump Script</title>
+<title>T3 MySQL Dump Script <?php echo $T3_DUMP_VERSION; ?></title>
 <style type="text/css">
 	.error {color:red;}
 	.control-output {
@@ -106,7 +106,7 @@ if(is_readable($path_localconf)){
 		echo <<< ENDFORM
 			<form action="" method="post">
 				<fieldset>
-					<legend>Create Typo3 Database Dump (v1.0)</legend>
+					<legend>Create Typo3 Database Dump $T3_DUMP_VERSION</legend>
 					<p>the install tool password is required to create a dump</p>
 					<label>Install tool Password: <input type="password"  value="" name="pwd" /></label><br />
 					<!--<label><input type="checkbox" name="include_cached_tables" />Include Cache Tables in dump</label><br />-->
