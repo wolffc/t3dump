@@ -18,7 +18,7 @@ $controllBytes = 200; // bytes to show from the end of the dump;
 $path_dump_store = dirname(__FILE__);
 
 $excludeCacheTables=true; // if setzt the ignore table Pattern is used to exclude chache tables
-$ignoreTablePattern = '/cache_.+/i'; // This is a preg match pattern of tablenames to be ignored
+$ignoreTablePattern = '/^cache_.+/i'; // This is a preg match pattern of tablenames to be ignored
 
 
 ### Starting Processing
