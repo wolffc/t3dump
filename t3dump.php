@@ -76,7 +76,7 @@ if(is_readable($path_localconf)){
 		}
 
 		$dumpOpt = " -u $typo_db_username -p$typo_db_password -h$typo_db_host -r\"{$dumpname}_db.sql\" $typo_db $dumpTableString";
-		$dumpOptCache = " -u $typo_db_username -p$typo_db_password -h$typo_db_host -r\"{$dumpname}_cache.sql\" $typo_db --no-data $dumpTableString";
+		$dumpOptCache = " -u $typo_db_username -p$typo_db_password -h$typo_db_host -r\"{$dumpname}_cache.sql\" $typo_db --no-data $cacheTablesString";
 		if(file_exists($dumpname.'_db.sql')){
 			die("dumpfile already exists: {$dumpname}_db.sql");
 		}
