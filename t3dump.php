@@ -6,9 +6,9 @@
  * it uses localconf.php to detect database setting and
  * mysqldump to create the dump of the databse.
  * 
- * version: 1.3
+ * version: 1.4
  */
- 
+$T3_DUMP_VERSION ='1.4'; // just the version string it shows
 
 ### Configuration Options
 $path_msqldump =''; /* 	this is only needet if mysqldump is not in PATH envirionment variable (c:\xampp\mysql\bin\mysqldump.exe) */
@@ -18,9 +18,9 @@ $controllBytes = 200; // bytes to show from the end of the dump;
 $path_dump_store = dirname(__FILE__);
 
 $excludeCacheTables=true; // if setzt the ignore table Pattern is used to exclude chache tables
-$ignoreTablePattern = '/^cache_.+/i'; // This is a preg match pattern of tablenames to be ignored
+$ignoreTablePattern = '/^cache_.+$/i'; // This is a preg match pattern of tablenames to be ignored
+// $ignoreTablePattern = '/^(cache_.+|tx_realurl_errorlog|sys_log)$/i'; // use this Pattern for smaller dumps it excludes also log tables
 
-$T3_DUMP_VERSION ='1.3'; // just the version string it shows
 ### Starting Processing
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

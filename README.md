@@ -27,3 +27,23 @@ if you experience any problems with the "installation & Usage section" it might 
 details open the t3dump script. there should be a section labled "### Configuration Options" where you 
 could set some details like the path to your mysqldump script. or another path for storing the sql dumps.
 
+$path_msqldump 
+	Allows you to set an path for the mysqldump Executable if you mysqldump is not in the PATH
+
+$overwrite_password
+	set an Alternate Password if you don't wan't to use the installtool password
+
+$path_localconf
+	the Path to the Local conf php if you dont install t3dump into typo3conf/ you need to fix this path
+
+$controllBytes
+	How Many Bytes to show at the end of an Dump to see if everything went fine.
+
+$path_dump_store
+	where to store the dumps
+
+$excludeCacheTables
+	should cache table data be dumped too?
+
+$ignoreTablePattern 
+	regularPatter to Identifiy cache Tables
